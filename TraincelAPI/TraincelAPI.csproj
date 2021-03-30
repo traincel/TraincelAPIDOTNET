@@ -1,0 +1,87 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Properties\launchSettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\TraincelAPI.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\TraincelAPI.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\TraincelAPI.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\TraincelAPI.xml" />
+    <Content Include="bin\Release\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Release\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Release\netcoreapp3.1\linux-x64\appsettings.Development.json" />
+    <Content Include="bin\Release\netcoreapp3.1\linux-x64\appsettings.json" />
+    <Content Include="bin\Release\netcoreapp3.1\linux-x64\Properties\launchSettings.json" />
+    <Content Include="bin\Release\netcoreapp3.1\linux-x64\TraincelAPI.deps.json" />
+    <Content Include="bin\Release\netcoreapp3.1\linux-x64\TraincelAPI.runtimeconfig.dev.json" />
+    <Content Include="bin\Release\netcoreapp3.1\linux-x64\TraincelAPI.runtimeconfig.json" />
+    <Content Include="bin\Release\netcoreapp3.1\Properties\launchSettings.json" />
+    <Content Include="bin\Release\netcoreapp3.1\publish\appsettings.Development.json" />
+    <Content Include="bin\Release\netcoreapp3.1\publish\appsettings.json" />
+    <Content Include="bin\Release\netcoreapp3.1\publish\TraincelAPI.deps.json" />
+    <Content Include="bin\Release\netcoreapp3.1\publish\TraincelAPI.runtimeconfig.json" />
+    <Content Include="bin\Release\netcoreapp3.1\TraincelAPI.deps.json" />
+    <Content Include="bin\Release\netcoreapp3.1\TraincelAPI.runtimeconfig.dev.json" />
+    <Content Include="bin\Release\netcoreapp3.1\TraincelAPI.runtimeconfig.json" />
+    <Content Include="bin\Release\netcoreapp3.1\TraincelAPI.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\TraincelAPI.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\TraincelAPI.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\TraincelAPI.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\linux-x64\Microsoft.OpenApi.dll" />
+    <None Include="bin\Release\netcoreapp3.1\linux-x64\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Release\netcoreapp3.1\linux-x64\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Release\netcoreapp3.1\linux-x64\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Release\netcoreapp3.1\linux-x64\TraincelAPI" />
+    <None Include="bin\Release\netcoreapp3.1\linux-x64\TraincelAPI.dll" />
+    <None Include="bin\Release\netcoreapp3.1\linux-x64\TraincelAPI.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll" />
+    <None Include="bin\Release\netcoreapp3.1\publish\Microsoft.OpenApi.dll" />
+    <None Include="bin\Release\netcoreapp3.1\publish\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Release\netcoreapp3.1\publish\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Release\netcoreapp3.1\publish\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Release\netcoreapp3.1\publish\TraincelAPI" />
+    <None Include="bin\Release\netcoreapp3.1\publish\TraincelAPI.dll" />
+    <None Include="bin\Release\netcoreapp3.1\publish\TraincelAPI.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\publish\TraincelAPI.xml" />
+    <None Include="bin\Release\netcoreapp3.1\publish\web.config" />
+    <None Include="bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Release\netcoreapp3.1\TraincelAPI.dll" />
+    <None Include="bin\Release\netcoreapp3.1\TraincelAPI.exe" />
+    <None Include="bin\Release\netcoreapp3.1\TraincelAPI.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="AutoWrapper.Core" Version="4.1.0" />
+    <PackageReference Include="AWSSDK.S3" Version="3.5.9.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Azure.Storage.Common" Version="11.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="SendGrid" Version="9.22.0" />
+    <PackageReference Include="Stripe.net" Version="37.15.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.4.1" />
+    <PackageReference Include="Z.EntityFramework.Plus.EFCore" Version="3.0.51" />
+  </ItemGroup>
+
+
+</Project>
